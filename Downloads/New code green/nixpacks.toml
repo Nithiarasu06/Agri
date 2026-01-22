@@ -1,11 +1,18 @@
+[metadata]
+nixpkgs.version = "24.05"
+
 [phases.setup]
 nixPkgs = ["nodejs-18_x", "npm-9_x"]
 
 [phases.install]
-cmds = ["npm install"]
+cmds = ["npm ci || npm install"]
 
 [phases.build]
 cmds = ["npm run build"]
 
 [start]
 cmd = "node server.js"
+
+[env]
+PORT = "10000"
+NODE_ENV = "production"
