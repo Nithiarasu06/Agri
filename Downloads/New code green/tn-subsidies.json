@@ -1,0 +1,341 @@
+{
+  "subsidies": [
+    {
+      "id": "tn-sub-001",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "nameTamil": "பிரதம மந்திரி கிசான் சம்மன் நிதி",
+      "category": "Direct Income Support",
+      "amount": 6000,
+      "frequency": "Annual (3 installments)",
+      "description": "Direct income support to all landholding farmers' families",
+      "descriptionTamil": "அனைத்து விவசாயிகளுக்கும் நேரடி வருமான ஆதரவு",
+      "eligibility": {
+        "landOwnership": "Any landholding",
+        "minLandSize": 0.5,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["Small", "Marginal", "Large"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Records",
+        "Bank Account Details"
+      ],
+      "applicationUrl": "https://pmkisan.gov.in",
+      "priority": 1
+    },
+    {
+      "id": "tn-sub-002",
+      "name": "Tamil Nadu Micro Irrigation Subsidy",
+      "nameTamil": "தமிழ்நாடு நுண்ணீர்ப் பாசன மானியம்",
+      "category": "Irrigation",
+      "amount": 50000,
+      "frequency": "One-time",
+      "description": "Subsidy for drip and sprinkler irrigation systems",
+      "descriptionTamil": "சொட்டு நீர் மற்றும் தெளிப்பு நீர்ப்பாசன அமைப்புகளுக்கான மானியம்",
+      "eligibility": {
+        "landOwnership": "Owned",
+        "minLandSize": 1,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["Small", "Marginal"]
+      },
+      "subsidyPercentage": 60,
+      "documents": [
+        "Land Ownership Certificate",
+        "Survey Number",
+        "Bank Passbook",
+        "Quotation from Approved Vendor"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture/schemes",
+      "priority": 2
+    },
+    {
+      "id": "tn-sub-003",
+      "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "nameTamil": "பிரதம மந்திரி பசல் பீமா யோஜனா",
+      "category": "Crop Insurance",
+      "amount": 50000,
+      "frequency": "Per Season",
+      "description": "Comprehensive crop insurance scheme covering yield losses",
+      "descriptionTamil": "விளைச்சல் இழப்புகளை உள்ளடக்கிய விரிவான பயிர் காப்பீட்டு திட்டம்",
+      "eligibility": {
+        "landOwnership": "Owned or Tenant",
+        "minLandSize": 0.5,
+        "crops": ["Paddy", "Sugarcane", "Cotton", "Groundnut"],
+        "districts": ["All"],
+        "farmerType": ["All"]
+      },
+      "premiumPercentage": 2,
+      "documents": [
+        "Land Records",
+        "Sowing Certificate",
+        "Bank Account",
+        "Aadhaar"
+      ],
+      "applicationUrl": "https://pmfby.gov.in",
+      "priority": 1
+    },
+    {
+      "id": "tn-sub-004",
+      "name": "Tamil Nadu Solar Pump Subsidy",
+      "nameTamil": "தமிழ்நாடு சூரிய மின் பம்ப் மானியம்",
+      "category": "Energy",
+      "amount": 300000,
+      "frequency": "One-time",
+      "description": "90% subsidy for solar-powered irrigation pumps",
+      "descriptionTamil": "சூரிய ஒளி இயக்க பாசன பம்புகளுக்கு 90% மானியம்",
+      "eligibility": {
+        "landOwnership": "Owned",
+        "minLandSize": 2,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["Small", "Marginal"]
+      },
+      "subsidyPercentage": 90,
+      "maxCapacity": "7.5 HP",
+      "documents": [
+        "Land Documents",
+        "Electricity Connection Details",
+        "Bank Statement",
+        "Installation Quote"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture",
+      "priority": 3
+    },
+    {
+      "id": "tn-sub-005",
+      "name": "Kisan Credit Card (KCC)",
+      "nameTamil": "கிசான் கடன் அட்டை",
+      "category": "Credit",
+      "amount": 300000,
+      "frequency": "Revolving Credit",
+      "description": "Low-interest agricultural credit facility",
+      "descriptionTamil": "குறைந்த வட்டி விவசாய கடன் வசதி",
+      "eligibility": {
+        "landOwnership": "Owned or Tenant",
+        "minLandSize": 1,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["All"]
+      },
+      "interestRate": 4,
+      "documents": [
+        "Land Records/Tenant Certificate",
+        "Aadhaar",
+        "PAN Card",
+        "Bank Account"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture/credit-facilities",
+      "priority": 2
+    },
+    {
+      "id": "tn-sub-006",
+      "name": "Tamil Nadu Organic Farming Incentive",
+      "nameTamil": "தமிழ்நாடு இயற்கை விவசாய ஊக்குவிப்பு",
+      "category": "Organic Farming",
+      "amount": 20000,
+      "frequency": "Annual",
+      "description": "Financial support for organic farming conversion and certification",
+      "descriptionTamil": "இயற்கை விவசாயத்திற்கு மாறுவதற்கும் சான்றிதழ் பெறுவதற்கும் நிதி உதவி",
+      "eligibility": {
+        "landOwnership": "Owned",
+        "minLandSize": 1,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["All"]
+      },
+      "documents": [
+        "Land Records",
+        "Organic Certification (if any)",
+        "Farming Plan",
+        "Bank Details"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture/organic-farming",
+      "priority": 3
+    },
+    {
+      "id": "tn-sub-007",
+      "name": "Agricultural Machinery Subsidy",
+      "nameTamil": "விவசாய இயந்திர மானியம்",
+      "category": "Mechanization",
+      "amount": 100000,
+      "frequency": "One-time",
+      "description": "50% subsidy for tractors, harvesters, and other farm equipment",
+      "descriptionTamil": "டிராக்டர், அறுவடை இயந்திரம் மற்றும் பிற விவசாய உபகரணங்களுக்கு 50% மானியம்",
+      "eligibility": {
+        "landOwnership": "Owned",
+        "minLandSize": 2,
+        "crops": ["All"],
+        "districts": ["All"],
+        "farmerType": ["Small", "Marginal"]
+      },
+      "subsidyPercentage": 50,
+      "documents": [
+        "Land Documents",
+        "Income Certificate",
+        "Bank Account",
+        "Quotation from Dealer"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture/schemes",
+      "priority": 4
+    },
+    {
+      "id": "tn-sub-008",
+      "name": "Horticulture Development Scheme",
+      "nameTamil": "தோட்டக்கலை மேம்பாட்டு திட்டம்",
+      "category": "Horticulture",
+      "amount": 75000,
+      "frequency": "One-time",
+      "description": "Support for establishing orchards and vegetable cultivation",
+      "descriptionTamil": "பழத்தோட்டங்கள் மற்றும் காய்கறி சாகுபடிக்கான உதவி",
+      "eligibility": {
+        "landOwnership": "Owned",
+        "minLandSize": 1,
+        "crops": ["Mango", "Coconut", "Banana", "Vegetables"],
+        "districts": ["All"],
+        "farmerType": ["All"]
+      },
+      "documents": [
+        "Land Records",
+        "Project Plan",
+        "Bank Details",
+        "Soil Test Report"
+      ],
+      "applicationUrl": "https://www.tn.gov.in/web/agriculture/schemes",
+      "priority": 3
+    }
+  ],
+  "districts": [
+    {"code": "TN-01", "name": "Chennai", "nameTamil": "சென்னை"},
+    {"code": "TN-02", "name": "Coimbatore", "nameTamil": "கோயம்புத்தூர்"},
+    {"code": "TN-03", "name": "Madurai", "nameTamil": "மதுரை"},
+    {"code": "TN-04", "name": "Tiruchirappalli", "nameTamil": "திருச்சிராப்பள்ளி"},
+    {"code": "TN-05", "name": "Salem", "nameTamil": "சேலம்"},
+    {"code": "TN-06", "name": "Tirunelveli", "nameTamil": "திருநெல்வேலி"},
+    {"code": "TN-07", "name": "Thanjavur", "nameTamil": "தஞ்சாவூர்"},
+    {"code": "TN-08", "name": "Vellore", "nameTamil": "வேலூர்"},
+    {"code": "TN-09", "name": "Erode", "nameTamil": "ஈரோடு"},
+    {"code": "TN-10", "name": "Tiruppur", "nameTamil": "திருப்பூர்"},
+    {"code": "TN-11", "name": "Kanchipuram", "nameTamil": "காஞ்சிபுரம்"},
+    {"code": "TN-12", "name": "Cuddalore", "nameTamil": "கடலூர்"},
+    {"code": "TN-13", "name": "Dindigul", "nameTamil": "திண்டுக்கல்"},
+    {"code": "TN-14", "name": "Karur", "nameTamil": "கரூர்"},
+    {"code": "TN-15", "name": "Namakkal", "nameTamil": "நாமக்கல்"},
+    {"code": "TN-16", "name": "Dharmapuri", "nameTamil": "தர்மபுரி"},
+    {"code": "TN-17", "name": "Krishnagiri", "nameTamil": "கிருஷ்ணகிரி"},
+    {"code": "TN-18", "name": "Nagapattinam", "nameTamil": "நாகப்பட்டினம்"},
+    {"code": "TN-19", "name": "Pudukkottai", "nameTamil": "புதுக்கோட்டை"},
+    {"code": "TN-20", "name": "Ramanathapuram", "nameTamil": "இராமநாதபுரம்"},
+    {"code": "TN-21", "name": "Sivaganga", "nameTamil": "சிவகங்கை"},
+    {"code": "TN-22", "name": "Theni", "nameTamil": "தேனி"},
+    {"code": "TN-23", "name": "Thoothukudi", "nameTamil": "தூத்துக்குடி"},
+    {"code": "TN-24", "name": "Tiruvallur", "nameTamil": "திருவள்ளூர்"},
+    {"code": "TN-25", "name": "Tiruvannamalai", "nameTamil": "திருவண்ணாமலை"},
+    {"code": "TN-26", "name": "Tiruvarur", "nameTamil": "திருவாரூர்"},
+    {"code": "TN-27", "name": "Villupuram", "nameTamil": "விழுப்புரம்"},
+    {"code": "TN-28", "name": "Virudhunagar", "nameTamil": "விருதுநகர்"},
+    {"code": "TN-29", "name": "Kanyakumari", "nameTamil": "கன்னியாகுமரி"},
+    {"code": "TN-30", "name": "Nilgiris", "nameTamil": "நீலகிரி"},
+    {"code": "TN-31", "name": "Perambalur", "nameTamil": "பெரம்பலூர்"},
+    {"code": "TN-32", "name": "Ariyalur", "nameTamil": "அரியலூர்"},
+    {"code": "TN-33", "name": "Ranipet", "nameTamil": "ராணிப்பேட்டை"},
+    {"code": "TN-34", "name": "Tirupathur", "nameTamil": "திருப்பத்தூர்"},
+    {"code": "TN-35", "name": "Chengalpattu", "nameTamil": "செங்கல்பட்டு"},
+    {"code": "TN-36", "name": "Tenkasi", "nameTamil": "தென்காசி"},
+    {"code": "TN-37", "name": "Kallakurichi", "nameTamil": "கள்ளக்குறிச்சி"},
+    {"code": "TN-38", "name": "Mayiladuthurai", "nameTamil": "மயிலாடுதுறை"}
+  ],
+  "crops": [
+    {
+      "code": "CROP-01",
+      "name": "Paddy",
+      "nameTamil": "நெல்",
+      "category": "Cereal",
+      "mspRate": 2183,
+      "unit": "quintal",
+      "season": ["Kharif", "Rabi"]
+    },
+    {
+      "code": "CROP-02",
+      "name": "Sugarcane",
+      "nameTamil": "கரும்பு",
+      "category": "Cash Crop",
+      "mspRate": 315,
+      "unit": "quintal",
+      "season": ["Annual"]
+    },
+    {
+      "code": "CROP-03",
+      "name": "Cotton",
+      "nameTamil": "பருத்தி",
+      "category": "Cash Crop",
+      "mspRate": 6620,
+      "unit": "quintal",
+      "season": ["Kharif"]
+    },
+    {
+      "code": "CROP-04",
+      "name": "Groundnut",
+      "nameTamil": "வேர்க்கடலை",
+      "category": "Oilseed",
+      "mspRate": 6377,
+      "unit": "quintal",
+      "season": ["Kharif", "Rabi"]
+    },
+    {
+      "code": "CROP-05",
+      "name": "Mango",
+      "nameTamil": "மாம்பழம்",
+      "category": "Fruit",
+      "mspRate": 0,
+      "unit": "kg",
+      "season": ["Summer"]
+    },
+    {
+      "code": "CROP-06",
+      "name": "Coconut",
+      "nameTamil": "தென்னை",
+      "category": "Plantation",
+      "mspRate": 12500,
+      "unit": "quintal",
+      "season": ["Annual"]
+    },
+    {
+      "code": "CROP-07",
+      "name": "Banana",
+      "nameTamil": "வாழை",
+      "category": "Fruit",
+      "mspRate": 0,
+      "unit": "kg",
+      "season": ["Annual"]
+    },
+    {
+      "code": "CROP-08",
+      "name": "Turmeric",
+      "nameTamil": "மஞ்சள்",
+      "category": "Spice",
+      "mspRate": 9920,
+      "unit": "quintal",
+      "season": ["Annual"]
+    },
+    {
+      "code": "CROP-09",
+      "name": "Maize",
+      "nameTamil": "சோளம்",
+      "category": "Cereal",
+      "mspRate": 2090,
+      "unit": "quintal",
+      "season": ["Kharif", "Rabi"]
+    },
+    {
+      "code": "CROP-10",
+      "name": "Onion",
+      "nameTamil": "வெங்காயம்",
+      "category": "Vegetable",
+      "mspRate": 0,
+      "unit": "kg",
+      "season": ["Rabi"]
+    }
+  ]
+}
